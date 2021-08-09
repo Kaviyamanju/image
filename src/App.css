@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  text-align: right;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3471eb;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction:row;
+  align-items: right;
+  justify-content: right;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(117, 36, 36);
 }
 
 .App-link {
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.faicons
+{
+  margin:0 5px;
+  font-size: 15px;
+  color: blue;
 }
